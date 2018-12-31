@@ -13,7 +13,8 @@ var bodyParser = require('body-parser');
 
 var mongoose = require('mongoose');
 var uriString =
-  process.env.MONGOLAB_URI ||
+process.env.MONGODB_URI ||
+process.env.MONGOLAB_URI ||
   process.env.MONGOHQ_URL ||
   'mongodb://localhost/product';
 mongoose.Promise = global.Promise;
