@@ -2,4 +2,4 @@
 
 ## Overview
 
-This is a simple express app to serve up a database of bands and venues.
+This is a express app to serve up a database of bands and venues.
