@@ -6,7 +6,8 @@ exports.register = function(app, mongoose) {
     mongoose.Schema({
       name: String,
       genre: String,
-      number_of_members: Number
+      number_of_members: Number,
+      number_of_fans: Number
     })
   ).methods(['get', 'post', 'put', 'delete']);
 
