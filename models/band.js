@@ -7,7 +7,8 @@ exports.register = function(app, mongoose) {
       name: String,
       genre: String,
       number_of_members: Number,
-      number_of_fans: Number
+      number_of_fans: Number,
+      password: String
     })
   ).methods(['get', 'post', 'put', 'delete']);
 
